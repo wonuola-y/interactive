@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+main{
+   
+     height: 100vh;
+    
+    background-color: hsl(216, 12%, 8%);
+}
+
+.total-container, section{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+
+}
+.total-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+    transform: translate(-50%, -50%);
+    box-shadow: 6px 14px 32px 11px rgba(0,0,0,0.62);
+-webkit-box-shadow: 6px 14px 32px 11px rgba(0,0,0,0.62);
+-moz-box-shadow: 6px 14px 32px 11px rgba(0,0,0,0.62);
+    border-radius: 25px;
+    background: linear-gradient(hsl(214, 16%, 20%), hsl(210, 10%, 11%)); 
+}
+h1, button{
+    margin: 0.5em 0;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+}
+h1{
+    font-size: 2em;
+}
+button{
+    font-size: 1em;
+    background-color: hsl(25, 97%, 53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    /* padding: 1em; */
+  
+    margin-bottom: 1em;
+}
+p{
+color: hsl(217, 12%, 63%);
+font-size: 1em;
+font-family: 'Overpass', sans-serif;
+width: 325px;
+}
+.thank-you{
+    display: none;
+    text-align: center;
+    
+}
+.active{
+    background-color: orangered;
+    color: white
+
+}
+.go-home{
+    color: white;
+     font-style: normal; 
+     padding: 0.5em; 
+     font-family: 'Overpass', sans-serif;
+     cursor: pointer;
+}
+ul{
+    display: flex;
+  justify-content: flex-start;
+  padding: 2px;
+    justify-content: space-between;
+    width: 100%;
+}
+.list{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+    width: 16%;
+    margin: 4px;
+}
+li:hover{
+    background-color:  hsl(216, 12%, 54%);
+    color: white;
+}
+li, image{
+    /* border: gray 2px solid; */
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 50px;
+    text-align: center;
+    padding: 1em;
+}
+button:hover{
+    cursor: pointer;
+    color: orangered;
+    background-color: white;
+}
+summary{
+  position: relative;
+  left: 30%;
+    width: 50%;
+    /* background-color:  hsl(215, 10%, 23%); */
+    border-radius: 25px;
+color: orange;
+padding-top: 1em;
+font-family: 'Overpass', 'sans serif';
+font-size: 1em;
+}
